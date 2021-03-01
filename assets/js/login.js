@@ -50,7 +50,7 @@ $(function () {
                 }
                 layui.layer.msg("登录成功!");
                 // console.log(res);
-                localStorage.setItem(res.token);
+                localStorage.setItem("token",res.token);
                 // 跳转到后台主页
                 location.href = '/index.html'
             }
