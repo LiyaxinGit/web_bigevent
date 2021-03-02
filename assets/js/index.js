@@ -42,7 +42,7 @@ function renderAvatar(user) {
     } else {
         //渲染图片头像
         $('.userinfo .text-avatar').hide();
-        $('.userinfo layui-nav-img').show().attr("src", res.data.user_pic);
+        $('.userinfo .layui-nav-img').attr("src", user.user_pic).show();
     }
 
 }
